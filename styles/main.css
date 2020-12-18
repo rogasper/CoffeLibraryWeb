@@ -1021,6 +1021,13 @@ main .card .card-text {
 
 .galeri .thumbnail img {
     height: 25rem;
+    border-radius: 20px;
+}
+
+.galeri .thumbnail img:hover {
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
 
