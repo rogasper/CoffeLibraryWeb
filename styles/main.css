@@ -133,7 +133,7 @@ a:hover {
 
 @media (max-width: 1256px) {
     .carousel-caption .img-fluid {
-        display: none;
+        visibility: hidden;
     }
 }
 
@@ -240,7 +240,7 @@ a:hover {
         margin-right: 1.5625rem;
     }
     .icons-desc span {
-        right: 45%;
+        right: 40%;
     }
 }
 
@@ -271,7 +271,7 @@ a:hover {
 .genre-card .row .card .card-img-overlay .card-title {
     color: white;
     font-family: var(--font-primary);
-    font-size: 30px !important;
+    font-size: 1.875rem !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,8 +398,8 @@ a:hover {
 
 @media(max-width: 540px) {
     .img-penerbit {
-        height: 60%;
-        width: 60%;
+        height: 40%;
+        width: 40%;
     }
 }
 
