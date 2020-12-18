@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./js/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/css/owl.theme.default.min.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>COLAB | Tempatnya Ilmu</title>
+</head>
+
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/home/logo.svg" alt="colab logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./catalog.html">Catalog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./fasilitas.html">Fasilitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./langganan.html">Langganan</a>
+                </li>
+                <a class="nav-link" href="./desktop.html"><button class="btn">Join</button></a>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <section class="header-catalog header-penanda">
+        <div class="jumbotron jumbotron-fluid jumbo-header">
+            <div class="row">
+                <div class="container d-flex flex-wrap align-items-center">
+                    <div class="text-header col-lg-7">
+                        <h1 class="display-4">Library Catalog</h1>
+                        <p class="lead">Buku adalah sumber ilmu terbaik bagi siapa pun yang membacanya. Carilah buku yang anda sukai.</p>
+                    </div>
+                    <img src="./img/catalog/search.svg" class="col-lg-5 img-fluid" alt="search">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Start Catalog Library -->
+    <section class="catalog-library">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-5">
+                    <form class="form-inline" action="./catalog.html" data-aos="fade-up">
+                        <input class="form-control input-search w-100" type="text" id="filterSearch" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-warning btn-search my-sm-0" type="button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div class="genre-filter mt-4" data-aos="fade-up">
+                        <div class="card card-details card-right">
+                            <h2>Genres</h2>
+                            <table class="genre-informations">
+                                <tr>
+                                    <th class="kuning">All</th>
+                                </tr>
+                                <tr class="horror">
+                                    <th width="50%">Horror</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="hukum">
+                                    <th width="50%">Hukum</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="Humaniora">
+                                    <th width="50%">Humaniora</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="it">
+                                    <th width="50%">IT</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="komik">
+                                    <th width="50%">Komik</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="medis">
+                                    <th width="50%">Medis</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="motivasi">
+                                    <th width="50%">Motivasi</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="pertanian">
+                                    <th width="50%">Pertanian</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                                <tr class="romantis">
+                                    <th width="50%">Romantis</th>
+                                    <td width="50%" class="text-right">3</td>
+                                </tr>
+                                <tr class="sejarah">
+                                    <th width="50%">Sejarah</th>
+                                    <td width="50%" class="text-right">2</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 d-flex justify-content-center">
+                    <div class="container">
+                        <div class="row" data-aos="fade-up">
+                            <h2 class="jelajah">Jelajahi Koleksi Buku Kami</h2>
+                        </div>
+                        <div class="mt-4 books" id="books">
+                            <div class="row d-flex justify-content-between" data-aos="fade-up">
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card horror">
+                                            <img src="./img/catalog/book1.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Journal of Terror Titisan</h5>
+                                                <p class="card-text books-author">Sweta Kartika</p>
+                                                <span class="genre">Horror</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card horror">
+                                            <img src="./img/catalog/book2.jpeg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Jurnal Risa - Teror Liburan Sekolah</h5>
+                                                <p class="card-text books-author">Risa Saraswati</p>
+                                                <span class="genre">Romantis</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card hukum">
+                                            <img src="./img/catalog/book3.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Politik Kriminal Pemberantasan</h5>
+                                                <p class="card-text books-author">Wahyu Prijo Djatmiko</p>
+                                                <span class="genre">Hukum</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card hukum">
+                                            <img src="./img/catalog/book4.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Sosiologi Hukum Penghantar Hukum</h5>
+                                                <p class="card-text books-author">Esmi W, Derita P, Faisal</p>
+                                                <span class="genre">Hukum</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card humaniora">
+                                            <img src="./img/catalog/book5.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Biografi Singkat : Gusdur</h5>
+                                                <p class="card-text books-author">Muhammad Rifai</p>
+                                                <span class="genre">Humaniora</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card humaniora">
+                                            <img src="./img/catalog/book6.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Biografi Singkat: Moh Hatta</h5>
+                                                <p class="card-text books-author">Salman Alfarizi</p>
+                                                <span class="genre">Humaniora</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card it">
+                                            <img src="./img/catalog/book7.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Membuat Aplikasi Internet of Things</h5>
+                                                <p class="card-text books-author">Radian Ferrari</p>
+                                                <span class="genre">IT</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card it">
+                                            <img src="./img/catalog/book8.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Python Kasus Big Data</h5>
+                                                <p class="card-text books-author">Rosihan Ari</p>
+                                                <span class="genre">IT</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card komik">
+                                            <img src="./img/catalog/book9.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Educomis Plants vs Zombie</h5>
+                                                <p class="card-text books-author">Xiao Jiang</p>
+                                                <span class="genre">Komik</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card komik">
+                                            <img src="./img/catalog/book10.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Detektif Conan Magician</h5>
+                                                <p class="card-text books-author">Shima Mizuki</p>
+                                                <span class="genre">Komik</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card medis">
+                                            <img src="./img/catalog/book11.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Pedoman Pencegahan Covid</h5>
+                                                <p class="card-text books-author">Eista Swaesti</p>
+                                                <span class="genre">Medis</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card medis">
+                                            <img src="./img/catalog/book12.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Virus Corona Baru COVID-19</h5>
+                                                <p class="card-text books-author">Hans Tandra</p>
+                                                <span class="genre">Medis</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card motivasi">
+                                            <img src="./img/catalog/book13.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Seni Menjalin Relasi Antargenerasi</h5>
+                                                <p class="card-text books-author">Erwin Parengkuan</p>
+                                                <span class="genre">Motivasi</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card motivasi">
+                                            <img src="./img/catalog/book14.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Young Inspiration 6 Langkah Sukses</h5>
+                                                <p class="card-text books-author">Dede P, Reko S</p>
+                                                <span class="genre">Motivasi</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card pertanian">
+                                            <img src="./img/catalog/book15.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Nutrisi Tanaman Hijau</h5>
+                                                <p class="card-text books-author">K. Anom Wijaya</p>
+                                                <span class="genre">Pertanian</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card pertanian">
+                                            <img src="./img/catalog/book16.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Panen Untung Dari Akuabisnis</h5>
+                                                <p class="card-text books-author">M. Ghufron H.</p>
+                                                <span class="genre">Pertanian</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card romantis">
+                                            <img src="./img/catalog/book17.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Antar Kota Antar Perasaan</h5>
+                                                <p class="card-text books-author">Genta Kiswara</p>
+                                                <span class="genre">Romantis</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card romantis">
+                                            <img src="./img/catalog/book18.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Milea Suara Dari Dilan</h5>
+                                                <p class="card-text books-author">Pidi Baiq</p>
+                                                <span class="genre">Romantis</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card sejarah">
+                                            <img src="./img/catalog/book19.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Hitam Putih Ken Arok</h5>
+                                                <p class="card-text books-author">M. Syamsudin</p>
+                                                <span class="genre">Sejarah</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details2.html">
+                                        <div class="card romantis">
+                                            <img src="./img/catalog/book20.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">25 JAM</h5>
+                                                <p class="card-text books-author">Stefani & Syahid</p>
+                                                <span class="genre">Romantis</span>
+                                                <a href="./details2.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                                    <a href="./details.html">
+                                        <div class="card sejarah">
+                                            <img src="./img/catalog/book21.jpg" class="card-img-top" alt="book">
+                                            <div class="card-body">
+                                                <h5 class="card-title books-title">Jejak Awal Khilafah Utsmani</h5>
+                                                <p class="card-text books-author">Herbert Adams</p>
+                                                <span class="genre">Sejarah</span>
+                                                <a href="./details.html" class="btn btn-coklat">More</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Catalog Library -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 mb-3">
+                    <img class="footer-logo" src="./img/home/logo.svg" alt="colab logo">
+                    <p class="footer-deskripsi">Colab merupakan singkatan dari Coffe Library. website ini menyediakan berbagai buku secara online maupun ofline.</p>
+                </div>
+                <div class="col-lg-3 col-sm-12 mb-3">
+                    <h3 class="footer-h3">KONTAK</h3>
+                    <ul class="footer-link">
+                        <li class="footer-item">
+                            <i class="fab fa-instagram-square"></i>
+                            <a href="#">@colab.lib</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="fab fa-facebook-square"></i>
+                            <a href="#">Colab Lib</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="fab fa-whatsapp-square"></i>
+                            <a href="#">0853472820</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 mb-3">
+                    <h3 class="footer-h3">ALAMAT</h3>
+                    <div class="footer-alamat">
+                        <p>Jalan Jendral Sudirman, Pabelan, Surakarta 54897
+                        </p>
+                        <p>Jam Buka 08.00 - 15.00 WIB</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 mb-3">
+                    <h3 class="footer-h3">COMPANY</h3>
+                    <ul class="footer-link">
+                        <li>
+                            <a href="./index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="./catalog.html">CATALOG</a>
+                        </li>
+                        <li>
+                            <a href="./fasilitas.html">FASILITAS</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">TENTANG KAMI</a>
+                        </li>
+                        <li>
+                            <a href="./langganan.html">LANGGANAN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-12">
+                    <p class="text-center">Copyright © 2020 All rights reserved | COLAB | By Hanif dan Royan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="./jquery/jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./js/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".catalog-library #filterSearch").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $(".books .card").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+            $("table th").on("click", function(e) {
+                var isi = $(this)[0].innerHTML.toUpperCase()
+                $("table th").removeClass("kuning")
+                $(this)[0].classList.add("kuning")
+                $(".books .card").filter(function() {
+                    // var mbuh = $(this)
+                    // console.log(mbuh)
+                    if (isi === "ALL") {
+                        $(".books .card").css("display", "block")
+                    } else {
+                        $(this).toggle($(this)[0].classList[1].toUpperCase().indexOf(isi) > -1)
+                    }
+                });
+            });
+
+            // let $tags = $("table th")
+            // $tags.click(function(e) {
+            //     $tags.removeClass("kuning")
+            //     e.target.classList.add("kuning")
+            //     var isi = e.target.classList[0].toUpperCase()
+            //     $(".books .card .genre").filter(function() {
+            //         e.toggle(e.text().toUpperCase().indexOf(isi) > -1)
+            //     })
+            // })
+        });
+
+        // const listTag = document.querySelectorAll('table th')
+        // listTag.forEach((tag, i) => {
+        //     tag.addEventListener('click', (e) => {
+        //         listTag.removeClass("kuning")
+        //         e.target.classList.add("kuning")
+        //     })
+        // })
+    </script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

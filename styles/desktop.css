@@ -1,0 +1,106 @@
+:root {
+    --font-primary: 'Righteous', cursive;
+    --font-secondary: 'PT Sans Caption', sans-serif;
+    --kuning: #E9BD4C;
+    --coklat: #645045;
+    --abuabu: #EEEEEE;
+    --merah: #FF4B3E;
+    --hitamterang: #777777;
+    --hijaumuda: #D9F0E3;
+    --hijautua: #C1E9D2;
+    --kream: #F0EFD9;
+    --kuningkream: #C6C856;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--abuabu);
+}
+
+/* Start Navbar */
+
+.navbar {
+    background-color: var(--coklat);
+    font-family: var(--font-secondary);
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 46.02px;
+}
+
+.navbar .login {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--abuabu);
+    background: var(--kuning);
+    border-radius: 6px;
+}
+
+.navbar .login:hover {
+    background-color: var(--abuabu);
+    color: var(--kuning);
+}
+
+/* End Navbar */
+
+/* Start Isi */
+
+.icon .thumbnail {
+    width: 60%;
+    height: auto;
+}
+
+.icon .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.daftar{
+    background: var(--coklat)!important;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.daftar .daftar-title{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: var(--kuning);
+    margin-bottom: 10px;
+}
+
+.daftar .form-label {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--abuabu);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.daftar .term {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+    color: var(--abuabu);
+}
+
+.daftar .signup {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--abuabu);
+    background: var(--kuning);
+    border-radius: 6px;
+}
+
+.daftar .signup:hover {
+    background-color: var(--abuabu);
+    color: var(--kuning);
+}
+
+/* End Isi */
