@@ -18,7 +18,6 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: var(--bg-all);
-    overflow-x: hidden;
 }
 
 h2 {
