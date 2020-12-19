@@ -1127,7 +1127,7 @@ main .card .card-text {
         margin-right: 1.5625rem;
     }
     .icons-desc span {
-        right: 40%;
+        right: 0;
     }
 }
 
