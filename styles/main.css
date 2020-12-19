@@ -1127,7 +1127,37 @@ main .card .card-text {
         margin-right: 1.5625rem;
     }
     .icons-desc span {
+        right: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .icons-desc span {
         right: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .icons-desc span {
+        right: 20%;
+    }
+}
+
+@media (max-width: 425px) {
+    .icons-desc span {
+        right: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .icons-desc span {
+        right: 66%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .icons-desc span {
+        right: 15%;
     }
 }
 
