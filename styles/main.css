@@ -168,7 +168,7 @@ a:hover {
 }
 
 .icons-desc h2 {
-    font-size: 46px;
+    font-size: 2.875rem;
     color: var(--kuning);
 }
 
@@ -184,7 +184,7 @@ a:hover {
 
 .icons-desc p {
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
@@ -1132,14 +1132,41 @@ main .card .card-text {
 }
 
 @media (max-width: 320px) {
+    .icons-desc h2 {
+        font-size: 1.8rem;
+    }
+    .icons-desc p {
+        font-size: 1rem;
+    }
     .icons-desc span {
         right: 0;
+        font-size: 1.8rem;
+    }
+    .carousel-caption h2 {
+        font-size: .3rem;
+    }
+    .carousel-caption h2>span {
+        color: var(--kuning);
+        font-size: .3rem;
+    }
+    .carousel-caption p {
+        font-size: .1rem;
     }
 }
 
 @media (max-width: 375px) {
     .icons-desc span {
         right: 20%;
+    }
+    .carousel-caption h2 {
+        font-size: 1rem;
+    }
+    .carousel-caption h2>span {
+        color: var(--kuning);
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: .8rem;
     }
 }
 
